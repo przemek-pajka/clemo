@@ -6,7 +6,6 @@ $(document).on('scroll',function()
 {
   var lic = $(document).scrollTop();
 
-console.log(lic);
 if(lic>550){
 $(".feature-1 .wp-1").addClass("animated fadeInRight");
 $(".feature-1 .wp-2").addClass("animated fadeInLeft");	};
